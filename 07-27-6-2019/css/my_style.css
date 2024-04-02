@@ -1,0 +1,75 @@
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+
+#heading {
+	background-color:#efefef;
+	color:white;
+	width:100%;
+	font-size:3em;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0px;
+	box-sizing: border-box;
+}
+
+.h {
+	height:200px;
+	border:1px solid gray;
+}
+
+.b {
+	display:none;
+}
+
+.c {
+	display:inline-block;
+}
+
+	
+	
+/*
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+.menu {
+	display:inline-block;
+	border:0px solid #000;
+	padding:10px 20px;
+	box-sizing:border-box;
+	color:white;
+	background-color:gray;
+	text-decoration:none;
+	transition:0.5s;
+}
+
+.menu:hover {
+	background-color:red;
+	color:yellow;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

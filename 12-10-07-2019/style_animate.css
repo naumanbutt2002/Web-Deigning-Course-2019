@@ -1,0 +1,30 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+.box {
+	margin:30px;
+	width:100%;
+	height:100%;
+	background-size:cover;
+	animation: boxcolor 3s infinite;
+}
+
+@keyframes boxcolor{
+	
+		0% {
+			background-image:url('media/logo.png');
+		}
+		50% {
+			background-image:url('media/welcome.jpg');
+		}
+		100% {
+			background-image:url('media/logo.png');
+		}
+	
+}
+
+
+
+

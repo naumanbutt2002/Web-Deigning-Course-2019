@@ -1,0 +1,139 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+
+.parent {
+	perspective:1000px;
+}
+
+.child {
+	width:300px;
+	height:300px;
+	
+	margin:30px auto;
+	transition:0.3s;
+	background-color:blue;
+	transform-style:preserve-3d;
+	/*transform-origin: 0 100%;*/
+	animation: rotate 4s linear;
+	animation-iteration-count:2;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotateY(0deg);
+		background-color:red;
+	}
+	100% {
+		transform: rotateY(360deg);
+		background-color: yellow;
+	}
+}
+
+
+
+.background {
+	width:100%;
+	height:400px;
+	background-color: #efefef;
+	position: fixed;
+	transform: scale(1.5);
+}
+
+.rotate {
+	position: relative;
+	transform-style: preserve-3d;
+	width:400px;
+	height:400px;
+	margin: auto;
+	border:0px solid olive;
+	animation: abc infinite 10s ease-in-out;
+}
+@keyframes abc {
+	0%, 100% {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	50% {
+		transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	}
+}
+.ball {
+	position: absolute;
+	transform-style: preserve-3d;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	border:0px solid red;
+}
+
+.ball1 {
+	position: absolute;
+	transform:rotateZ(0deg);
+}
+.ball2 {
+	position: absolute;
+	transform:rotateZ(45deg);
+}
+.ball3 {
+	position: absolute;
+	transform:rotateZ(90deg);
+}
+.ball4 {
+	position: absolute;
+	transform:rotateZ(135deg);
+}
+.disc {
+	position: absolute;
+	transform-style: preserve-3d;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	border-radius: 50%;
+	border:0px solid red;
+	background: radial-gradient(#aaa, #fff);
+}
+.disc1 {
+	position: absolute;
+	transform: rotateY(0deg);
+}
+.disc2 {
+	position: absolute;
+	transform: rotateY(30deg);
+}
+.disc3 {
+	position: absolute;
+	transform: rotateY(60deg);
+}
+.disc4 {
+	position: absolute;
+	transform: rotateX(90deg);
+}
+.disc5 {
+	position: absolute;
+	transform: rotateY(120deg);
+}
+.disc6 {
+	position: absolute;
+	transform: rotateY(150deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

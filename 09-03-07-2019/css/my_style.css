@@ -1,0 +1,105 @@
+
+
+* {
+	margin:0px;
+	padding:0px;
+	/* perspective:1000px; */
+}
+
+.heading {
+	background-color:orange;
+	font-size:4em;
+	color:white;
+	padding:20px;
+	font-style: italic;
+	text-align: right;
+}
+
+.relative-div{
+	width: 700px;
+	height:400px;
+	background-color:blue;
+	position: relative;
+}
+
+.absolute-div{
+	width: 500px;
+	height:200px;
+	background-color:red;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.absolute-div-1 {
+	width:400px;
+	height:500px;
+	background-color: yellow;
+	position: absolute;
+	bottom:0px;
+	right: 0px;
+}
+	
+	
+	
+	
+	
+	
+/*
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+/////////////											/////////////////////
+/////////////	   	   	T R A N S F O R M S 	   		/////////////////////
+/////////////											/////////////////////
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+.transform {
+	width:500px;
+	height:300px;
+	background-color:red;
+	/*
+	transform:translateY(0px);
+	transform:translate(0px, 100px);
+	transform:rotate(90deg);
+	transform: scale(0.5);
+	transform:rotateY(20deg);
+	transform: skew(30deg);
+	*/
+	
+	transform:rotate(20deg);
+}
+
+
+
+.product-outter{ 
+	width:300px;
+	height:auto;
+	border:0px double black;
+	transition:0.4s;
+	overflow: hidden;
+	display: inline-block;
+} 
+.product{ 
+	width:300px;
+	height:auto;
+	border:0px dotted red;
+	transition:0.4s;
+}
+
+.product:hover{ 
+	width:300px;
+	height:auto;
+	border:0px dotted red;
+	transform: scale(1.2) rotate(4deg);
+}
+
+
+
+
+

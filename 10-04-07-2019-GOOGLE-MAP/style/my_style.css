@@ -1,0 +1,57 @@
+* {
+ 	margin: 0px;
+ 	padding: 0px;
+}
+.map {
+	width: 100%;
+	height: 300px;
+	border:0px solid black;
+	position: relative;
+}
+
+.inside-map {
+	position: absolute;
+	background-color: orange;
+	width: 400px;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	padding: 20px;
+	font-style: italic;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 900;
+}
+
+
+
+.main {
+	background-color: #003CFF;
+	padding: 20px 0px;
+}
+.fa-main {
+	display: inline-block;
+	border: 5px solid #5B58FF;
+	padding: 20px;
+	border-radius: 50%;
+}
+.fa-my {
+	font-size: 3em;
+	color: #efefef;
+	transition: 0.5s;
+}
+.fa-my:hover {
+	transform: scale(2.5) rotate(3deg);
+}
+
+
+
+
+
+
+
+
+
+
+

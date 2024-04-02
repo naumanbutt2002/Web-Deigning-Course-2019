@@ -1,0 +1,103 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+/*
+img[alt="altsmaple"] {
+	width: 200px;
+}
+*/
+
+.pic1, .pic2 {
+	width: 200px;
+}
+
+
+.cat {
+	display: inline-block;
+	width: 300px;
+	background-color: gray;
+	color: white;
+	font-size: 30px;
+	position: relative;
+}
+
+.subcat {
+	position: absolute;
+	display: block;
+	padding:20px 30px;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	display: none;
+}
+
+.cat:hover .subcat {
+	display: block;
+}
+
+
+.slider {
+	box-sizing: border-box;
+	position: relative;
+}
+.slider img {
+	width: 98vw;
+	height: 100vh;
+	box-sizing: border-box;
+	position: absolute;
+	
+}
+.slider img:nth-child(1) {
+	animation-delay: 0s;
+	animation: slider-animate 5s infinite;
+}
+.slider img:nth-child(2) {
+	animation-delay: 5s;
+	animation: slider-animate 5s infinite;
+}
+.slider img:nth-child(3) {
+	animation-delay: 10s;
+	animation: slider-animate 5s infinite;
+}
+.slider img:nth-child(4) {
+	animation-delay: 15s;
+	animation: slider-animate 5s infinite;
+}
+
+@keyframes slider-animate {
+	0% {
+		left: 0px;
+	}
+	50% {
+		left: 100%;
+	}
+	100% {
+		left: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

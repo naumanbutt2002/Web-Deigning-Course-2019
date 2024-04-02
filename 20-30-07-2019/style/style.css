@@ -1,0 +1,150 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.txtinpt {
+	width:200px;
+	padding:10px 20px;
+	background-color:#efefef;
+	border:none;
+}
+.txtinpt:focus {
+	width:200px;
+	padding:10px 20px;
+	background-color:#aaa;
+	border:none;
+	color:white;
+	outline-width:10px;
+	outline-color:red;
+}
+
+
+
+.menu {
+	font-size:30px;
+	display: inline-block;
+	padding:10px 20px;
+	background-color:#efefef;
+	color:white;
+	text-decoration:none;
+}
+
+.menu:hover {
+	font-size:30px;
+	display: inline-block;
+	padding:10px 20px;
+	background-color:blue;
+	color:white;
+	text-decoration:none;
+}
+
+
+.abc {
+	width:100%;
+	padding:30px 10px;
+	background-color:#efefef;
+}
+
+.abc span {
+	display:inline-block;
+	height:200px;
+	width:300px;
+	
+}
+/*
+.abc span:nth-child(1)
+{
+	border:10px solid red;
+}
+.abc span:nth-child(2)
+{
+	border:10px solid blue;
+}
+.abc span:nth-child(3)
+{
+	border:10px solid green;
+}
+*/
+
+.abc span:nth-child(even)
+{
+	border:10px solid red;
+}
+.abc span:nth-child(odd)
+{
+	border:10px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/////////////////////////////////////////////////////////////////////////////////
+//////////////////////////					 ////////////////////////////////////
+////////////////////////// 	PSEUDO ELEMETNS  ////////////////////////////////////
+//////////////////////////					 ////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+*/
+
+
+.para {
+	font-size:1.5em;
+	font-family: Consolas;
+	border:1px solid #aaa;
+	background-color: #efefef;
+	padding: 50px 100px;
+	margin:0px 50px;
+	text-align: justify;
+	text-transform: lowercase;
+}
+.para:first-letter {
+	color:red;
+	font-size:2em;
+	text-transform: uppercase;
+}
+.para:first-line {
+	color:blue;
+	font-size:2em;
+	text-transform: uppercase;
+}
+
+
+.para::selection {
+	background-color:yellow;
+	color:blue;
+}
+
+
+
+.div-before {
+	width:100%;
+	height:200px;
+	background-color: red;
+	position: relative;
+	font-size:30px;
+}
+.div-before::before {
+	content: '';
+	background-color: inherit;
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:25;
+	z-index:-1;
+	left:0px;
+	transform: rotate(2deg) skewX(2deg);
+	
+}
+
+
+

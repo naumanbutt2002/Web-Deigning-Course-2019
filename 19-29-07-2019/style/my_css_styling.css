@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+.bodyfont {
+	font-family: 'Saira Stencil One';
+	
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+
+.main {
+	background: radial-gradient(circle at 50% 50%,  #aaa, #efefef,#aaa);
+	padding: 40px 0px;
+}
+
+.box {
+	width:300px;
+	border:1px solid black;
+	height:500px;
+	display:inline-block;
+}
+
+
+
+
+@media only screen and (max-width:400px)
+{
+	.box {
+		width:100%;
+		border:1px solid black;
+		height:500px;
+		display:inline-block;
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+

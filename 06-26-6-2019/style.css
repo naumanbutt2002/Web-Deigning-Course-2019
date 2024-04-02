@@ -1,0 +1,42 @@
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color: #efefef;
+}
+
+.heading {
+	color:red;
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+
+.left {
+	width:50%;
+	height:300px;
+	background-color:palegreen;
+	float: left;
+}
+.right {
+	width:50%;
+	height:300px;
+	background-color:green;
+	float:right;
+}
+
+.a1 {
+	width:50%;
+	height:310px;
+	background-color:red;
+}
+
+.a2 {
+	width:50%;
+	height:300px;
+	background-color:blue;
+}
+

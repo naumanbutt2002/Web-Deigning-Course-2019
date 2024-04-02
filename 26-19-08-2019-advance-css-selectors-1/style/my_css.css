@@ -1,0 +1,17 @@
+* {
+	padding:0px;
+	margin:0px;
+	color: red;
+	font-size:30px;
+}
+
+.a > .a21 {
+	color: black;
+	font-size:40px;
+}
+
+
+.a + .b {
+	color: blue;
+	font-size:40px;
+}
